@@ -1,0 +1,28 @@
+# Dependencies
+node_modules/
+**/node_modules/
+
+# Environment variables — NEVER commit these
+.env
+.env.local
+.env.*.local
+backend/.env
+
+# SQLite database — contains real user data
+backend/data/
+
+# Build output
+frontend/dist/
+frontend/.vite/
+
+# Logs
+npm-debug.log*
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Editor
+.vscode/settings.json
+.idea/

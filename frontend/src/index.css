@@ -1,0 +1,83 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  * { @apply transition-colors duration-150; }
+
+  body {
+    @apply text-brown-600 antialiased font-sans;
+    min-height: 100vh;
+    background: #ece5d8;
+  }
+
+  .dark body {
+    @apply text-beige-100;
+    background: #1a1612;
+  }
+
+  h1, h2, h3 { @apply font-display; }
+}
+
+@layer components {
+  .btn {
+    @apply inline-flex items-center justify-center gap-2 rounded-xl px-4 py-2 text-sm font-medium
+           focus:outline-none focus:ring-2 focus:ring-offset-2
+           disabled:opacity-50 disabled:cursor-not-allowed active:scale-95;
+    transition: all 0.15s ease;
+  }
+
+  .btn-primary {
+    @apply btn text-white focus:ring-brown-500;
+    background: #2c2420;
+  }
+  .btn-primary:hover:not(:disabled) {
+    background: #1a1612;
+    transform: translateY(-1px);
+  }
+
+  .btn-secondary {
+    @apply btn text-brown-500 border border-beige-400 bg-beige-100
+           hover:bg-beige-200 focus:ring-beige-400;
+  }
+
+  .btn-ghost {
+    @apply btn text-brown-400 hover:text-brown-600 hover:bg-beige-200 focus:ring-beige-400;
+  }
+
+  .input {
+    @apply block w-full rounded-xl border border-beige-400 bg-beige-50 px-4 py-2.5 text-sm
+           text-brown-600 placeholder-brown-300 shadow-none
+           focus:border-brown-400 focus:outline-none focus:ring-2 focus:ring-brown-200 focus:bg-white;
+    transition: all 0.15s ease;
+  }
+
+  .card {
+    @apply rounded-2xl border border-beige-300;
+    background: #f5f1ea;
+    box-shadow: 0 1px 4px rgba(44,36,32,0.06);
+  }
+
+  .label {
+    @apply block text-xs font-semibold uppercase tracking-wider text-brown-300 mb-1.5;
+  }
+
+  .priority-high {
+    @apply inline-flex items-center gap-1 rounded-full px-2.5 py-0.5 text-xs font-medium bg-red-100 text-red-700;
+  }
+  .priority-medium {
+    @apply inline-flex items-center gap-1 rounded-full px-2.5 py-0.5 text-xs font-medium bg-orange-100 text-orange-700;
+  }
+  .priority-low {
+    @apply inline-flex items-center gap-1 rounded-full px-2.5 py-0.5 text-xs font-medium bg-green-100 text-green-700;
+  }
+
+  .blob {
+    @apply absolute rounded-full opacity-20 pointer-events-none;
+    filter: blur(60px);
+  }
+
+  ::-webkit-scrollbar { width: 5px; }
+  ::-webkit-scrollbar-track { background: transparent; }
+  ::-webkit-scrollbar-thumb { background: #d4cdc0; border-radius: 99px; }
+}

@@ -1,0 +1,89 @@
+{
+  "nav": {
+    "signedInAs": "تم الدخول بـ",
+    "signOut": "تسجيل الخروج"
+  },
+  "auth": {
+    "welcomeBack": "مرحباً بعودتك",
+    "waitingForYou": "تابع من حيث توقفت",
+    "email": "البريد الإلكتروني",
+    "password": "كلمة المرور",
+    "confirmPassword": "تأكيد كلمة المرور",
+    "signIn": "تسجيل الدخول",
+    "noAccount": "ليس لديك حساب؟",
+    "createAccount": "إنشاء حساب",
+    "beginJourney": "إنشاء حساب جديد",
+    "createPersonal": "مركز إنتاجيتك الشخصي",
+    "atLeast6": "6 أحرف على الأقل",
+    "repeatPassword": "أعد كتابة كلمة المرور",
+    "createMyAccount": "إنشاء حسابي",
+    "alreadyAccount": "لديك حساب بالفعل؟",
+    "creatingSpace": "جاري إنشاء مساحتك...",
+    "signingIn": "جاري تسجيل الدخول..."
+  },
+  "sidebar": {
+    "yourCorners": "زواياك",
+    "myCorners": "زواياي",
+    "addCorner": "أضف زاويتك",
+    "cornerName": "اسم الزاوية…",
+    "color": "اللون",
+    "cancel": "إلغاء",
+    "create": "إنشاء",
+    "creating": "جاري الإنشاء…",
+    "allInOnePlace": "كل مساحات عملك في مكان واحد"
+  },
+  "dashboard": {
+    "active": "نشط",
+    "done": "منجز",
+    "complete": "مكتمل",
+    "addTask": "إضافة مهمة",
+    "cancel": "إلغاء",
+    "newTask": "مهمة جديدة في",
+    "loadingTasks": "جاري التحميل...",
+    "nothingYet": "لا شيء هنا بعد",
+    "addFirstTask": "أضف مهمتك الأولى في هذه الزاوية ✨",
+    "noMatch": "لا توجد مهام تطابق الفلتر",
+    "clearFilters": "مسح الفلاتر"
+  },
+  "filters": {
+    "all": "الكل",
+    "active": "نشط",
+    "completed": "مكتمل",
+    "allPriorities": "كل الأولويات",
+    "high": "عالي",
+    "medium": "متوسط",
+    "low": "منخفض",
+    "allDates": "كل التواريخ",
+    "today": "اليوم",
+    "thisWeek": "هذا الأسبوع",
+    "overdue": "متأخر",
+    "search": "بحث عن مهمة…",
+    "tasks": "مهام",
+    "task": "مهمة"
+  },
+  "todo": {
+    "edit": "تعديل",
+    "delete": "حذف",
+    "confirm": "تأكيد الحذف؟",
+    "yes": "نعم",
+    "no": "لا",
+    "due": "الموعد",
+    "noDue": "بدون موعد",
+    "title": "عنوان المهمة",
+    "description": "الوصف (اختياري)",
+    "priority": "الأولوية",
+    "dueDate": "تاريخ الاستحقاق",
+    "addTask": "إضافة",
+    "saveChanges": "حفظ التغييرات",
+    "adding": "جاري الإضافة...",
+    "saving": "جاري الحفظ..."
+  },
+  "corners": {
+    "tasks": { "name": "مهامي", "description": "أهدافك اليومية وقائمة المهام" },
+    "healthy": { "name": "زاوية الصحة", "description": "غذّي جسدك وابنِ عادات صحية" },
+    "skin": { "name": "زاوية البشرة", "description": "أشرقي من الخارج إلى الداخل" },
+    "glowup": { "name": "تطوير الذات", "description": "كوني أفضل نسخة منك" },
+    "financial": { "name": "الماليات", "description": "أنفقي بحكمة واقتصدي بذكاء" },
+    "mind": { "name": "العقل والروح", "description": "السلام والنمو والهدوء الداخلي" }
+  }
+}

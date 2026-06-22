@@ -1,0 +1,89 @@
+{
+  "nav": {
+    "signedInAs": "Signed in as",
+    "signOut": "Sign out"
+  },
+  "auth": {
+    "welcomeBack": "Welcome back",
+    "waitingForYou": "Pick up where you left off",
+    "email": "Email address",
+    "password": "Password",
+    "confirmPassword": "Confirm password",
+    "signIn": "Sign in",
+    "noAccount": "No account?",
+    "createAccount": "Create an account",
+    "beginJourney": "Create your account",
+    "createPersonal": "Your personal productivity hub",
+    "atLeast6": "At least 6 characters",
+    "repeatPassword": "Repeat your password",
+    "createMyAccount": "Create my account",
+    "alreadyAccount": "Already have an account?",
+    "creatingSpace": "Creating your space...",
+    "signingIn": "Signing in..."
+  },
+  "sidebar": {
+    "yourCorners": "Your corners",
+    "myCorners": "My corners",
+    "addCorner": "Add your corner",
+    "cornerName": "Corner name…",
+    "color": "Color",
+    "cancel": "Cancel",
+    "create": "Create",
+    "creating": "Creating…",
+    "allInOnePlace": "All your workspaces in one place"
+  },
+  "dashboard": {
+    "active": "active",
+    "done": "done",
+    "complete": "complete",
+    "addTask": "Add task",
+    "cancel": "Cancel",
+    "newTask": "New task in",
+    "loadingTasks": "Loading tasks...",
+    "nothingYet": "Nothing here yet",
+    "addFirstTask": "Add your first task to this corner ✨",
+    "noMatch": "No tasks match your filters",
+    "clearFilters": "Clear filters"
+  },
+  "filters": {
+    "all": "All",
+    "active": "Active",
+    "completed": "Completed",
+    "allPriorities": "All priorities",
+    "high": "High",
+    "medium": "Medium",
+    "low": "Low",
+    "allDates": "All dates",
+    "today": "Today",
+    "thisWeek": "This week",
+    "overdue": "Overdue",
+    "search": "Search tasks…",
+    "tasks": "tasks",
+    "task": "task"
+  },
+  "todo": {
+    "edit": "Edit",
+    "delete": "Delete",
+    "confirm": "Confirm delete?",
+    "yes": "Yes",
+    "no": "No",
+    "due": "Due",
+    "noDue": "No due date",
+    "title": "Task title",
+    "description": "Description (optional)",
+    "priority": "Priority",
+    "dueDate": "Due date",
+    "addTask": "Add task",
+    "saveChanges": "Save changes",
+    "adding": "Adding...",
+    "saving": "Saving..."
+  },
+  "corners": {
+    "tasks": { "name": "My Tasks", "description": "Your daily goals & to-dos" },
+    "healthy": { "name": "Healthy Corner", "description": "Nourish your body & build habits" },
+    "skin": { "name": "Skin Corner", "description": "Glow from the outside in" },
+    "glowup": { "name": "Glow Up", "description": "Become your best self" },
+    "financial": { "name": "Financial", "description": "Spend wisely, save smartly" },
+    "mind": { "name": "Mind & Soul", "description": "Peace, growth & inner calm" }
+  }
+}

@@ -1,0 +1,89 @@
+{
+  "nav": {
+    "signedInAs": "Connecté en tant que",
+    "signOut": "Déconnexion"
+  },
+  "auth": {
+    "welcomeBack": "Bon retour",
+    "waitingForYou": "Reprenez là où vous en étiez",
+    "email": "Adresse e-mail",
+    "password": "Mot de passe",
+    "confirmPassword": "Confirmer le mot de passe",
+    "signIn": "Se connecter",
+    "noAccount": "Pas de compte ?",
+    "createAccount": "Créer un compte",
+    "beginJourney": "Créez votre compte",
+    "createPersonal": "Votre hub de productivité personnel",
+    "atLeast6": "Au moins 6 caractères",
+    "repeatPassword": "Répétez votre mot de passe",
+    "createMyAccount": "Créer mon compte",
+    "alreadyAccount": "Déjà un compte ?",
+    "creatingSpace": "Création de votre espace...",
+    "signingIn": "Connexion..."
+  },
+  "sidebar": {
+    "yourCorners": "Vos coins",
+    "myCorners": "Mes coins",
+    "addCorner": "Ajouter un coin",
+    "cornerName": "Nom du coin…",
+    "color": "Couleur",
+    "cancel": "Annuler",
+    "create": "Créer",
+    "creating": "Création…",
+    "allInOnePlace": "Tous vos espaces en un seul endroit"
+  },
+  "dashboard": {
+    "active": "actif",
+    "done": "fait",
+    "complete": "complet",
+    "addTask": "Ajouter",
+    "cancel": "Annuler",
+    "newTask": "Nouvelle tâche dans",
+    "loadingTasks": "Chargement...",
+    "nothingYet": "Rien ici pour l'instant",
+    "addFirstTask": "Ajoutez votre première tâche ✨",
+    "noMatch": "Aucune tâche ne correspond aux filtres",
+    "clearFilters": "Effacer les filtres"
+  },
+  "filters": {
+    "all": "Tous",
+    "active": "Actif",
+    "completed": "Terminé",
+    "allPriorities": "Toutes priorités",
+    "high": "Haute",
+    "medium": "Moyenne",
+    "low": "Basse",
+    "allDates": "Toutes dates",
+    "today": "Aujourd'hui",
+    "thisWeek": "Cette semaine",
+    "overdue": "En retard",
+    "search": "Rechercher…",
+    "tasks": "tâches",
+    "task": "tâche"
+  },
+  "todo": {
+    "edit": "Modifier",
+    "delete": "Supprimer",
+    "confirm": "Confirmer la suppression ?",
+    "yes": "Oui",
+    "no": "Non",
+    "due": "Échéance",
+    "noDue": "Pas de date",
+    "title": "Titre de la tâche",
+    "description": "Description (optionnel)",
+    "priority": "Priorité",
+    "dueDate": "Date d'échéance",
+    "addTask": "Ajouter",
+    "saveChanges": "Enregistrer",
+    "adding": "Ajout...",
+    "saving": "Enregistrement..."
+  },
+  "corners": {
+    "tasks": { "name": "Mes Tâches", "description": "Vos objectifs et to-dos quotidiens" },
+    "healthy": { "name": "Coin Santé", "description": "Nourrissez votre corps & créez des habitudes" },
+    "skin": { "name": "Coin Peau", "description": "Rayonnez de l'extérieur vers l'intérieur" },
+    "glowup": { "name": "Glow Up", "description": "Devenez votre meilleur vous" },
+    "financial": { "name": "Finances", "description": "Dépensez sagement, économisez intelligemment" },
+    "mind": { "name": "Esprit & Âme", "description": "Paix, croissance & sérénité intérieure" }
+  }
+}
